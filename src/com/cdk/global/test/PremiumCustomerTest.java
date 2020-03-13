@@ -7,16 +7,15 @@ import org.junit.Test;
 import com.cdk.global.beans.Cart;
 import com.cdk.global.beans.Product;
 import com.cdk.global.impl.PremiumCustomer;
-import com.cdk.global.impl.RegularCustomer;
 
 public class PremiumCustomerTest {
     
 	Cart cart = null;
 	
 	@Before
-    public void prepareCart() {
+	public void prepareCart() {
 		cart = new Cart();
-    }
+	}
 	
 	public Product getProduct(String productName, double price) {
 		Product p = new Product();
