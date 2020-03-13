@@ -13,9 +13,9 @@ public class RegularCustomerTest {
 	Cart cart = null;
 	
 	@Before
-    public void prepareCart() {
+        public void prepareCart() {
 		cart = new Cart();
-    }
+        }
 	
 	public Product getProduct(String productName, double price) {
 		Product p = new Product();
